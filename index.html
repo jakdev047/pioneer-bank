@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- title -->
+    <title>Pioneer Bank</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+
+  <body>
+    
+    <section>
+
+
+      <div class="login-area" id="login-area">
+        <h2 class="text-center">Welcome to Pioneer Bank</h2>
+        <div class="submit-area">
+          <h4 class="my-3">Log in</h4>
+          <input type="text" class="form-control" placeholder="Email..."> <br>
+          <input type="password"  class="form-control" placeholder="Password..."> <br>
+          <button class="btn btn-success" id="login">Enter</button>
+        </div>
+      </div>
+
+
+      <div class="transection-area" id="transection-area">
+        <h2 class="text-center">Transection Area</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="single-card deposit">
+              <h5>Deposit</h5>
+              <h2>$00.00</h2>
+            </div>
+            
+          </div>
+          <div class="col-md-4">
+            <div class="single-card withdraw">
+              <h5>Withdraw</h5>
+              <h2>$00.00</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-card balance">
+              <h5>Balance</h5>
+              <h2>$00.00</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="single-transection-form">
+              <h4 class="my-3">Deposit</h4>
+              <input type="text" class="form-control" placeholder="Enter Deposit Amount..." id="depositAmount"> <br>
+              <button id="addDeposit" class="btn btn-success" id="">Enter</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="single-transection-form">
+              <h4 class="my-3">Withdraw</h4>
+              <input type="text" class="form-control" placeholder="Enter Withdraw Amount..."> <br>
+              <button class="btn btn-success" id="">Enter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- all javascript file included-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
