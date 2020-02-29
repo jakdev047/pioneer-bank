@@ -38,20 +38,20 @@
           <div class="col-md-4">
             <div class="single-card deposit">
               <h5>Deposit</h5>
-              <h2>$00.00</h2>
+              <h2>$ <span id="currentDeposit">00</span></h2>
             </div>
             
           </div>
           <div class="col-md-4">
             <div class="single-card withdraw">
               <h5>Withdraw</h5>
-              <h2>$00.00</h2>
+              <h2>$ <span id="currentWithdraw">00</span></h2>
             </div>
           </div>
           <div class="col-md-4">
             <div class="single-card balance">
               <h5>Balance</h5>
-              <h2>$00.00</h2>
+              <h2>$ <span id="currentBalance">20000</span></h2>
             </div>
           </div>
         </div>
@@ -66,8 +66,8 @@
           <div class="col-md-6">
             <div class="single-transection-form">
               <h4 class="my-3">Withdraw</h4>
-              <input type="text" class="form-control" placeholder="Enter Withdraw Amount..."> <br>
-              <button class="btn btn-success" id="">Enter</button>
+              <input id="withdrawAmount" type="text" class="form-control" placeholder="Enter Withdraw Amount..."> <br>
+              <button id="reduceWidraw" class="btn btn-success" id="">Enter</button>
             </div>
           </div>
         </div>
